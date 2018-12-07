@@ -1,0 +1,660 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8" /><title>Ремонт</title>
+<body>
+
+    <title id="ToTop">Ремонт квартир в г.Краматорск</title>
+    <style>
+    body {
+        background-color: #ADDFFF; }
+.top-menu {
+  position: relative;
+  margin: 0 60px;
+  background: #5A394E;    
+  box-shadow: 
+    inset 1px 0 0 rgba(255,255,255,.1), 
+    inset -1px 0 0 rgba(255,255,255,.1), 
+    inset 150px 0 150px -150px rgba(255,255,255,.12), 
+    inset -150px 0 150px -150px rgba(255,255,255,.12);
+}
+.top-menu:before,
+.top-menu:after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  width: 200px;
+  height: 3px;
+}
+.top-menu:before {
+  top: 0;
+  border-bottom: 1px dashed rgba(255,255,255,.2);
+
+}
+.top-menu:after {
+  bottom: 0;
+  border-top: 1px dashed rgba(255,255,255,.2);
+}
+.menu-main {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.menu-main:before, 
+.menu-main:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 0;
+  top: 8px;
+  border-top: 18px solid #5A394E;
+  border-bottom: 18px solid #5A394E;
+  transform: rotate(360deg);
+  z-index: -1;
+}
+.menu-main:before {
+  left: -30px;
+  border-left: 12px solid rgba(255, 255, 255, 0);
+}
+.menu-main:after {
+  right: -30px;
+  border-right: 12px solid rgba(255, 255, 255, 0);
+}
+.menu-main li {
+  display: inline-block;
+  margin-right: -4px;
+}
+.menu-main a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: white;
+  transition: .3s linear;
+}
+.menu-main a.current,
+.menu-main a:hover {background: rgba(0,0,0,.2);}
+@media (max-width: 680px) {
+.top-menu {margin: 0;}
+.menu-main li {
+
+  display: block;
+  margin-right: 0;
+}
+.menu-main:before, 
+.menu-main:after {content: none;}
+.menu-main a {display: block;}
+}
+#name {
+	position: absolute;
+    text-transform: uppercase;
+    right: 550px;
+}
+#name2 {
+	position: relative;
+    text-decoration: underline;
+    font-size: 36px;
+    font-weight:bold;
+    font-style:italic;
+}
+#Ass {
+	border: 5px solid #5A394E;
+	position: absolute;
+	left: : 30px;
+    top: 100px;
+	
+}
+#Pass {
+	border: 5px solid #5A394E;
+	position: absolute;
+	left: : 30px;
+	top: 400px;
+
+}
+#name3 {
+	position:  absolute;
+	font-size: 22px;
+	text-align: right;
+	top: 200px;
+	left: 250px;	
+}	
+#Loki2 {
+	position: absolute;
+	top: 340px;
+}
+#TOP {
+   font-size: 30px;
+   color: black;
+   position: absolute;
+   right: 10px;
+   background-color: green;	
+}
+#free {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    display: inline-block;
+}
+#free:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free1 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free1:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free2 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+    }
+
+#free2:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free3 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free3:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free4 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free4:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free5 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free5:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free6 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free6:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free7 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free7:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free8 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free8:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free9 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free9:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free10 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free10:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free11 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free11:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free12 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free12:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free13 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free13:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free14 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free14:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free15 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free15:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free16 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free16:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+#free17 {
+	border: 5px solid #5A394E;
+	margin: 18px;
+    position: static;
+}
+#free17:hover{
+	margin: 0 auto;
+	position: relative;
+	transition: 2.5s;
+	width: 250px;
+	height: 250px;
+}
+
+</style>
+<header id="name2"><center>Строительственные и ремонтные работы в Краматорске</center></header>
+ <nav class="top-menu">
+  <ul class="menu-main">
+    <li><a href="#Loki">Главная</a></li>
+    <li><a href="#Loki2">Отделочные работы</a></li>
+    <li><a href="">Сантехнические работы</a></li>
+    <li><a href="">Електрические работы</a></li>
+    <li><a href="">Контакты</a></li>
+    <li><a href="#Galery">Галерея</a></li>
+  </ul>
+  </nav>
+
+  <h1 id="Loki">Главная</h1>
+<img id="Ass" src="Дизайн.png" width="250px" height="250px">
+   <p id="name"><i><u><b>Строительственные и ремонтные работы от А до Я. <br>Все виды услуг(проект, дизайн, обстановка мебели)</b></u></i></p>
+   <p id="name3"><b><i>                   Начни работать с нами
+БЕСПЛАТНО
+мы бесплатно разрабатываем планировочное решение
+бесплатно составляем подробную развернутую смету
+бесплатно выезжаем на объект для замеров и консультаций
+и только после этого вы будете принимать решение о нашем дальнейшем сотрудничестве на платной основе</i></b></p>
+  
+
+ 
+ <img id="Pass" src="Стройка.png" width="250px" height="250px">
+
+ <h1 id="Loki2">Отделочные работы</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 id="Galery">Галерея</h1>
+<br>
+<br>
+<img id="free" src="Ремонт.png" width="200" height="200">
+<img id="free1" src="Ремонт1.png" width="200" height="200">
+<img id="free2" src="Ремонт2.png" width="200" height="200">
+<img id="free3" src="Ремонт3.png" width="200" height="200">
+<img id="free4" src="Ремонт4.png" width="200" height="200">
+<img id="free5" src="Ремонт5.png" width="200" height="200">
+<img id="free6" src="Ремонт6.png" width="200" height="200">
+<img id="free7" src="Ремонт7.png" width="200" height="200">
+<img id="free8" src="Ремонт8.png" width="200" height="200">
+<img id="free9" src="Ремонт9.png" width="200" height="200">
+<img id="free10" src="Ремонт10.png" width="200" height="200">
+<img id="free11" src="Ремонт11.png" width="200" height="200">
+<img id="free12" src="Ремонт12.png" width="200" height="200">
+<img id="free13" src="Ремонт13.png" width="200" height="200">
+<img id="free14" src="Ремонт14.png" width="200" height="200">
+<img id="free15" src="Ремонт15.png" width="200" height="200">
+<img id="free16" src="Ремонт16.png" width="200" height="200">
+<img id="free17" src="Ремонт17.png" width="200" height="200">
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</head>
+</html>
